@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300&family=Raleway:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background: rgb(5,91,116);
+    /* mix-blend-mode: darken; */
+
+ }
+
+header  {
+    width: 100%;
+    height: 600px;
+    background: #8A2387; 
+background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.568), hsla(352, 79%, 58%, 0.479), hsla(302, 60%, 34%, 0.514)), url(https://www.leydeconocimiento.org.ar/wp-content/uploads/2019/11/Ley-de-Promocion-del-Software.jpg);
+background: linear-gradient(to right, hsla(23, 89%, 54%, 0.568), hsla(352, 79%, 58%, 0.479), hsla(302, 60%, 34%, 0.514)), url(https://www.leydeconocimiento.org.ar/wp-content/uploads/2019/11/Ley-de-Promocion-del-Software.jpg); 
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+
+}
+
+header ul {
+    position: absolute;
+    right: 2%;
+    width: 40%;
+    line-height: 500%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+header ul li {
+    font-size: 1.5rem;
+    
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 10vh;
+  border-top: 5px rgb(42, 97, 148) inset; 
+}
+
+.th {
+    transition: .3s ease-out;
+    color: white;
+    font-weight: bolder;
+}
+
+.th:hover {
+    font-size: 2rem;
+    color:rgb(255, 0, 0);
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+.textox-header{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.snake{
+    
+    position: absolute;
+    line-height: 100%;
+    left: 2%;
+    top: 4%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    
+}
+
+img {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+}
+
+
+  .aboutme {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 25%;
+    z-index: 10000;
+  }
+
+  .aboutme p {
+    color: white;
+    font-size: 2rem;
+    z-index: 1000;
+  }
+  i.email {
+    position: absolute;
+    font-size: 44px;
+    left: 88%;
+    top: 28%;
+    color:white;
+    transition: .3s;
+
+  }
+
+i.email:hover {
+  font-size: 3rem;
+  color:rgb(153, 17, 135);
+}
+i.lin {
+  position: absolute;
+    font-size: 44px;
+    left: 94%;
+    top: 28%;
+    color: white;
+    transition: .3s;
+}
+i.lin:hover{
+  font-size: 3rem;
+    color:rgb(153, 17, 135);
+
+}
+
+.java{
+  width: 52px;
+  height: auto;
+  position: absolute;
+  top: 28%;
+  left: 18%;
+  backface-visibility: visible;
+  animation-name: java;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  
+  
+}
+.github {
+  position: absolute;
+  left: 18%;
+  top: 59%;
+  font-size: 4rem;
+  -ms-transform-origin: top center;
+    transform-origin: top center;
+    animation-name: github;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+}
+.gitbash {
+  position: absolute;
+  left: 11%;
+  top: 59%;
+  font-size: 4rem; 
+  color: chocolate;
+  animation-name: gitbash;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+.boots {
+  position: absolute;
+  left: 73%;
+  top: 58%;
+  font-size: 4rem; 
+  color: #8A2387;
+  animation: boots 2s ease 0s infinite reverse both;
+}
+.js {
+  width: 80px;
+  height: auto;
+  top: 57%;
+  left: 47%;
+  position: absolute;
+  background-color: hsla(0, 0%, 100%, 0);
+  animation: js 1s ease 0s infinite alternate both;
+}
+.html{
+  width: 75px;
+  height: auto;
+  top: 28%;
+  left: 47%;
+  position: absolute;
+  animation: html 2s cubic-bezier(0.32, 0, 0.67, 0) 0s infinite alternate both;
+}
+.css {
+  width: 75px;
+  height: auto;
+  top: 26%;
+  left: 73%;
+  position: absolute;
+  animation-name: css;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+
+}
+.javaa{
+  top: 32%;
+  left: 23%;
+  position: absolute;
+}
+.gitt{
+  top: 61%;
+  left: 23%;
+  position: absolute;
+}
+.htmll{
+  top: 32%;
+  left: 53%;
+  position: absolute;
+
+}
+.jss{
+  top: 61%;
+  left: 53%;
+  position: absolute;
+}
+.csss{
+  top: 32%;
+  left: 80%;
+  position: absolute;
+}
+.bootss{
+  top: 61%;
+  left: 80%;
+  position: absolute;
+}
+
+  @keyframes java {
+  0% {
+  -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  }
+  40% {
+  -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  }
+  50% {
+  -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  80% {
+  -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+  transform: perspective(400px) scale3d(.95, .95, .95);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  100% {
+  -webkit-transform: perspective(400px);
+  transform: perspective(400px);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  } 
+
+  
+    
+    @keyframes github {
+    20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+    }
+    40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+    }
+    60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+    }
+    80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+    }
+    100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+    }
+    }
+  
+      @keyframes gitbash {
+      0% {
+      -webkit-transform: none;
+      transform: none;
+      }
+      15% {
+      -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+      transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+      }
+      30% {
+      -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+      transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+      }
+      45% {
+      -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+      transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+      }
+      60% {
+      -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+      transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+      }
+      75% {
+      -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+      transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+      }
+      100% {
+      -webkit-transform: none;
+      transform: none;
+      }
+      } 
+      @keyframes boots {
+        0% {
+          transform: scale3d(1, 1, 1);
+        }
+      
+        30% {
+          transform: scale3d(1.25, 0.75, 1);
+        }
+      
+        40% {
+          transform: scale3d(0.75, 1.25, 1);
+        }
+      
+        50% {
+          transform: scale3d(1.15, 0.85, 1);
+        }
+      
+        65% {
+          transform: scale3d(0.95, 1.05, 1);
+        }
+      
+        75% {
+          transform: scale3d(1.05, 0.95, 1);
+        }
+      
+        100% {
+          transform: scale3d(1, 1, 1);
+        }
+      }
+      
+        @keyframes js {
+          0% {
+            opacity: 0;
+            transform: rotate(-540deg) scale(0);
+          }
+        
+          100% {
+            opacity: 1;
+            transform: rotate(0) scale(1);
+          }
+        }
+        @keyframes html {
+          0%,
+          100% {
+            transform: rotate(0deg);
+            transform-origin: 0 50%;
+          }
+        
+          10% {
+            transform: rotate(2deg);
+          }
+        
+          20%,
+          40%,
+          60% {
+            transform: rotate(-4deg);
+          }
+        
+          30%,
+          50%,
+          70% {
+            transform: rotate(4deg);
+          }
+        
+          80% {
+            transform: rotate(-2deg);
+          }
+        
+          90% {
+            transform: rotate(2deg);
+          }
+        }
+        @keyframes css {
+          0%{
+            transform: rotate3d(1,1,0,0deg);
+          }
+          100%{
+            transform: rotate3d(1,1,0,180deg);
+          }
+        }
+        .ocean { 
+          height: 200px;
+          width:100%;
+            overflow: hidden;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        
+        .ocean.v01 .wave {
+            background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+        }
+        
+        .ocean.v01 {
+            transform: rotate(180deg);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .wave {
+          background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+          position: absolute;
+          bottom: -25px;
+          width: 6400px;
+          height: 100%;
+          animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+          transform: translate3d(0, 0, 0);
+        }
+        
+        .wave:nth-of-type(2) {
+          bottom: -25px;
+          animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+          opacity: 1;
+        }
+        
+        @keyframes wave {
+          0% {
+            margin-left: 0;
+          }
+          100% {
+            margin-left: -1600px;
+          }
+        }
+        
+        @keyframes swell {
+          0%, 100% {
+            transform: translateY(-25px);
+          }
+          50% {
+            transform: translateY(5px);
+          }
+        }
+        
+        p {
+          font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2rem;
+        }
+        
